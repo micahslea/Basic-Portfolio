@@ -35,6 +35,8 @@
 <div class="main">
     <h1>Contact</h1>
 
+    <form action="#" method="get" id="form">
+
     <label for="titlename">Name</label>
     <input type="text" id="titlename" name="name" placeholder="John Smith">
 
@@ -42,9 +44,11 @@
     <input type="text" id="titlename" name="name" placeholder="example@gmail.com">
 
     <label for="input2">Message</label>
-    <input type="text" id="input2" name="name">
+    <textarea type="text" id="input2" name="name"></textarea>
 
-    <button class="btn">Submit</button>
+    </form>
+
+    <button class="btn" type="submit" form="form" value="Submit">Submit</button>
 
 </div>
 
