@@ -21,7 +21,7 @@ body {
 .navbar {
     width: 960px;
     margin: 0 auto;
-    
+   
     
 
 }
@@ -62,7 +62,6 @@ li a:hover{
 }
 
 header {
-    background-color: ffffff;
     background-color: #ffffff;
     top: 0px;
     left: 0px;
